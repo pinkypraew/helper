@@ -15,7 +15,7 @@ def index(request):
 
     # Render the response and send it back!
     return render(request, 'rango/index.html', context_dict)
-#
+
 # def index(request):
 #
 #     # Construct a dictionary to pass to the template engine as its context.
